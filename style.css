@@ -320,3 +320,83 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
+ .product-detail--card {
+    width: 90%;
+    height: 150px;
+    min-width: 288px;
+    max-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+ }
+ .product-detail--card .clock {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/clock.svg");
+    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+ }
+ .product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+ }
+ .product-detail--card .clock-eye {
+    display: inline-block;
+    height: 22px;
+    width: 24px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/eye.svg");
+    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .product-detail--card .clock-dollar {
+    display: inline-block;
+    height: 22px;
+    width: 24px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/dollar-sign.svg");
+    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .product-detail--card .clock-check-circle {
+    display: inline-block;
+    height: 22px;
+    width: 24px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/check-circle.svg");
+    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/img/bitcoinbaby2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .bitcoin-img-container h2 {
+    padding: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+ }
