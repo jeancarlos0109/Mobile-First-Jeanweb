@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/table.css" media="(min-width: 768px)">
 </head>
 <body>
     <header>
@@ -75,10 +76,10 @@
                        </tr>
                     </table>
                 </div>
-                </div>
                 <div class="commissions-table--date">
                     <p><b>Actualizado:</b>19 Julio 23:48</p>
                 </div>
+            </div>
             </section> 
         </section>
         <section class="main-product-detail">
@@ -87,28 +88,22 @@
                 <h2>Creamos un producto sin comparación</h2>
                 <p>Confiable y desañado para su uso diario</p>
             </div>
-            <section>
+            <section class="product-cards--container">
                 <article class="product-detail--card">
                 <span class="clock"></span>
                 <p class="product--card-title">Tiempo real</p>
                 <p class="product--card-body">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
-            </article>
-            </section>
-            <section>
+                </article>
                 <article class="product-detail--card">
                     <span class="clock-eye"></span>
                     <p class="product--card-title">No hay tasas escondidas</p>
                     <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
                 </article>
-            </section>
-            <section>
                 <article class="product-detail--card">
                     <span class="clock-dollar"></span>
                     <p class="product--card-title">Compara monedas</p>
                     <p class="product--card-body">No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.</p>
                 </article>
-            </section>
-            <section>
                 <article class="product-detail--card">
                     <span class="clock-check-circle"></span>
                     <p class="product--card-title">Información confiable</p>
@@ -124,19 +119,48 @@
             <h2>Escoge el plan que mejor se ajuste a ti.</h2>
             <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
             </div>
-            <section class="plans-container-slider">
+        <section class="plans-container-slider">
                 <article class="plans-container--card">
                 <p class="recomended">Recomendado</p>
                 <div class="plan-info-container">
                     <h3 class="plan-info--title">Pago Anual</h3>
-                    <p class="plan-card--title"><sub>$</sub>99</p>
+                    <p class="plan-card--price"><sub>$</sub>99</p>
                     <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
                     <button class="plan-card--ca">escoge<span></span></button>
                 </div>
             </article>
-            </section>
-        </section>
+                <article class="plans-container--card">
+                <p class="recomended">Recomendado</p>
+                <div class="plan-info-container">
+                    <h3 class="plan-info--title">Pago Anual</h3>
+                    <p class="plan-card--price"><sub>$</sub>69</p>
+                    <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                    <button class="plan-card--ca">escoge<span></span></button>
+                </div>
+            </article>
+                <article class="plans-container--card">
+                <p class="recomended">Recomendado</p>
+                <div class="plan-info-container">
+                    <h3 class="plan-info--title">Pago Anual</h3>
+                    <p class="plan-card--price"><sub>$</sub>49</p>
+                    <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                    <button class="plan-card--ca">escoge<span></span></button>
+                </div>
+            </article>
+    </section>
+    </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section lass="right">
+            <img src="./assets/img/logo-footer.svg" alt="Logotipo de Batatabit">
+        </section>
+    </footer>
 </body>
 </html>
